@@ -1,0 +1,18 @@
+{
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@polymer/lit-element": "^0.6.5",
+    "@storybook/polymer": "^4.1.2",
+    "babel-loader": "^8.0.4",
+    "lit-html": "^0.14.0",
+    "polymer-webpack-loader": "^2.0.3"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "browserslist": [
+    "last 2 chrome version"
+  ]
+}
