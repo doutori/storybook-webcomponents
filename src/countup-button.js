@@ -15,7 +15,6 @@ class CountupButton extends LitElement {
   }
 
   render() {
-    console.log('render');
     return html`
         <style> button {
             -webkit-appearance: none;
