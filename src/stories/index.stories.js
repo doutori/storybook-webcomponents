@@ -23,6 +23,7 @@ storiesOf('my-button2', module).add(
 );
 
 storiesOf('countup-button', module).add(
-  'simple',
-  () => '<countup-button></countup-button><countup-button increaseNum="3" />'
+  'default',
+  () => `<countup-button></countup-button>
+         <countup-button increment="3" />`
 );
