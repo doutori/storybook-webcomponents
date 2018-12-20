@@ -1,6 +1,7 @@
 import { storiesOf } from '@storybook/polymer';
 import '../my-button'
 import '../my-button2'
+import '../countup-button'
 
 storiesOf('my-button', module).add(
   'with link',
@@ -19,4 +20,9 @@ storiesOf('my-button2', module).add(
 ).add(
   'configure name',
   () => '<my-button2 name="Alice" />'
-)
+);
+
+storiesOf('countup-button', module).add(
+  'simple',
+  () => '<countup-button></countup-button><countup-button increaseNum="3" />'
+);
